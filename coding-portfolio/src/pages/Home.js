@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {Container, Row, Col} from 'react-bootstrap';
+import { Container, Row, Col } from 'react-bootstrap';
 import Jumbotron from '../components/HomeJumbotron';
 import './Page.css';
 import './Home.css';
@@ -18,15 +18,22 @@ export default class Home extends Component {
 					<h2 className="about_header">Recent Projects</h2>
 					<Row>
 						<Col md={6}>
-							<DynamicCard card_src={Image1} card_title="Delay Plugin" card_text="An audio delay plugin built with C++, JUCE framework"/>
+							<DynamicCard
+								card_src={Image1}
+								card_title="Delay Plugin"
+								card_text="An audio delay plugin built with C++, JUCE framework"
+							/>
 						</Col>
 						<Col>
-							<DynamicCard card_src={Image2} card_title="Workout Builder" card_text="Using youtube's api to build custom fitness workouts" />
+							<DynamicCard
+								card_src={Image2}
+								card_title="Workout Builder"
+								card_text="Using youtube's api to build custom fitness workouts"
+								project_url="chloe-ting-react-app"
+							/>
 						</Col>
 					</Row>
-					
 				</Container>
-				
 			</div>
 		);
 	}

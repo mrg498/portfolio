@@ -14,7 +14,7 @@ export default class DynamicCard extends Component {
                         {this.props.card_text}
                     </Card.Text>
                     <Button variant="secondary">
-                        <Link to='/webdev'>View Project</Link>
+                        <Link to={`/project/${this.props.project_url}`}>View Project</Link>
                     </Button>
                 </Card.Body>
             </Card>

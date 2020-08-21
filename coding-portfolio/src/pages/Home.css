@@ -5,6 +5,19 @@
 	background-size: cover;
 }
 
+.about_header{
+	border-bottom: 2px solid black;
+	margin-bottom: 2rem;
+}
+
+/* bootstrap classes */
+.about_container{
+	/* background-color: white;
+	border: 3px solid black;
+	border-radius: 8px; */
+	padding: 1rem;
+}
+
 /* media queries */
 
 @media (min-width: 576px) {

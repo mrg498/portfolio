@@ -15,13 +15,13 @@ export default class Navigation extends Component {
 					<Navbar.Collapse id="basic-navbar-nav">
 						<Nav className="mr-auto">
 							<Nav.Link as="span">
-								<NavLink exact activeClassName="active-link" to='/'>Home</NavLink>
+								<NavLink exact activeClassName="active-link" className="link" to='/'>Home</NavLink>
 							</Nav.Link>
       						<Nav.Link as="span">
-								<NavLink exact activeClassName="active-link" to='/webdev'>Web Development</NavLink>
+								<NavLink exact activeClassName="active-link" className="link" to='/webdev'>Web Development</NavLink>
 							</Nav.Link>
 							<Nav.Link as="span">
-								<NavLink exact activeClassName="active-link" to='/programming'>General Programming</NavLink>
+								<NavLink exact activeClassName="active-link" className="link" to='/programming'>General Programming</NavLink>
 							</Nav.Link>		
 						</Nav>
 					</Navbar.Collapse>

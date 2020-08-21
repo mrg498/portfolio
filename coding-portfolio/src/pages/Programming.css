@@ -1,0 +1,26 @@
+.ProgrammingPage-heading {
+	background-color: black;
+	background-image: url(../images/michael-benz-IgWNxx7paz4-unsplash.jpg);
+	background-position: left 50% top 80%;
+	background-size: cover;
+}
+
+/* media queries */
+
+@media (min-width: 576px) {
+}
+
+@media (min-width: 768px) {
+	
+}
+
+@media (min-width: 992px) {
+	.ProgrammingPage-heading {
+		background-image: url(../images/leonardo-yip-NcWnJmeVtcw-unsplash.jpg);
+		background-position: left 50% bottom 40%;
+		background-size: cover;
+	}
+}
+
+@media (min-width: 1200px) {
+}

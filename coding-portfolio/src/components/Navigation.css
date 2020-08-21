@@ -1,8 +1,27 @@
-@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@500&display=swap');
+
+a, a:hover{
+	color: white;
+	text-decoration: none;
+	padding: 0.5rem;
+}
+
+.active-link, .active-link:hover{
+	background-color: white;
+	color: black;
+	padding: 0.5rem;
+	border-radius: 8px;
+}
+
+/* bootstrap classes */
 
 .navbar-brand {
-	font-family: 'Sriracha', sans-serif;
-	font-size: 2rem;
+	font-family: 'Baloo Tamma 2', cursive;
+	font-size: 1.5rem;
+}
+
+.nav-link {
+	text-align: right;
 }
 
 /* media */
@@ -11,11 +30,15 @@
 }
 
 @media (min-width: 768px) {
+	.navbar-brand {
+		font-size: 2rem;
+	}
 }
 
 @media (min-width: 992px) {
 	.navbar-expand-lg .navbar-nav .nav-link {
-		padding-left: 2rem;
+		padding-left: 2.5rem;
+		text-align: left;
 	}
 }
 

@@ -5,8 +5,8 @@ import './App.css';
 class App extends Component {
 	render() {
 		return (
-			<div className="App">
-				<Routes/>
+			<div className="App container-fluid">
+				<Routes />
 			</div>
 		);
 	}

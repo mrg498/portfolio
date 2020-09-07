@@ -1,0 +1,48 @@
+.Home {
+    height: 100vh;
+}
+
+.gradient {
+	background: linear-gradient(-45deg, #ee7652, #e73c7e, #23a5d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 10s ease infinite;
+	/* By:
+  Manuel Pinto
+  https://manuelpinto.in */
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.Jumbotron {
+	background-color: transparent;
+	text-align: center;
+	padding-top: 25%;
+}
+
+.Navigation li > a {
+    color: rgba(255, 255, 255, 0.75);
+    letter-spacing: var(--letter-spacing-small);
+}
+
+.display-1 {
+    letter-spacing: var(--letter-spacing-big);
+	margin-bottom: 7rem;
+	color: white;
+	text-shadow: black 3px 5px 2px;
+}
+
+.display-1 span {
+    padding: 0.5rem;
+    border-bottom: 3px solid rgba(255, 255, 255, 0.392);
+}

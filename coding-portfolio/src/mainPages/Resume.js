@@ -1,11 +1,14 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import Jumbotron from "../components/Jumbotron";
 import './Resume.css';
 
 export default class Resume extends Component {
     render() {
         return (
-            <div>
-                <h1>Resume Page</h1>
+            <div className='Resume'>
+                <div className="container">
+                    <Jumbotron pageName="CV & Resume" />
+                </div>   
             </div>
         )
     }

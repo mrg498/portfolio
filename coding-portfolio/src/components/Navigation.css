@@ -1,19 +1,24 @@
 .nav-links{
     list-style-type: none;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     padding: 0;
     margin: 0;
 }
 
+.nav-link{
+    padding: 0;
+    padding-bottom: 0.5rem;
+}
+
 .nav-link a{
-    color: black;
+    color: white;
     text-decoration: none;
     font-size: 2rem;
 }
 
-.active-link{
-    color: purple;
+.active-link {
+    color: var(--color-accent) !important;
 }
 
 li {

@@ -2,7 +2,7 @@
     height: 100vh;
 }
 
-.gradient {
+.Home .gradient {
 	background: linear-gradient(-45deg, #ee7652, #e73c7e, #23a5d5, #23d5ab);
 	background-size: 400% 400%;
 	animation: gradient 10s ease infinite;
@@ -24,25 +24,29 @@
 	}
 }
 
-.Jumbotron {
-	background-color: transparent;
-	text-align: center;
-	padding-top: 25%;
+.Home .container{
+	padding-top: 20%;
 }
 
-.Navigation li > a {
+.Home .Jumbotron {
+	background-color: transparent;
+	text-align: center;
+}
+
+.Home .Navigation li > a {
     color: rgba(255, 255, 255, 0.75);
     letter-spacing: var(--letter-spacing-small);
 }
 
-.display-1 {
+.Home .Jumbotron .display-1 {
     letter-spacing: var(--letter-spacing-big);
 	margin-bottom: 7rem;
 	color: white;
 	text-shadow: black 3px 5px 2px;
+	border-bottom: none;
 }
 
-.display-1 span {
+.Home .Jumbotron .display-1 span {
     padding: 0.5rem;
     border-bottom: 3px solid rgba(255, 255, 255, 0.392);
 }

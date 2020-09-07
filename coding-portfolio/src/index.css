@@ -1,4 +1,5 @@
 :root{
+  --color-accent: rgb(170, 244, 252);
   --letter-spacing-big: 0.6rem;
   --letter-spacing-small: 0.25rem;
 }

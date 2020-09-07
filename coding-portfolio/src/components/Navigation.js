@@ -8,8 +8,8 @@ export default class Navigation extends Component {
             <nav className="Navigation">
                 <ul className='nav-links'>
                     <li className="nav-link"><NavLink activeClassName="active-link" to={'/about'}>About Me</NavLink></li>
-                    <li className="nav-link"><NavLink activeClassName="active-link" to={'/resume'}>Resume/CV</NavLink></li> 
-                    <li className="nav-link"><NavLink activeClassName="active-link" to={'/projects'}>Projects</NavLink></li>     
+                    <li className="nav-link"><NavLink activeClassName="active-link" to={'/projects'}>Projects</NavLink></li>
+                    <li className="nav-link"><NavLink activeClassName="active-link" to={'/resume'}>Resume/CV</NavLink></li>      
                 </ul> 
             </nav>
         )

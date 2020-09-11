@@ -61,15 +61,19 @@
 
 /* // Small devices (landscape phones, less than 768px) */
 @media (max-width: 767.98px) {
-}
-
-/* // Extra small devices (portrait phones, less than 576px) */
-@media (max-width: 575.98px) {
+	.Home .nav-links {
+		flex-direction: column;
+	}
 	.Home .Jumbotron .display-1 {
 		margin-bottom: 2rem;
 		text-shadow: black 1px 3px 1px;
 	}
-	.Home .nav-links {
-		flex-direction: column;
+}
+
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+	.Home .Jumbotron{
+		margin-top: -50%;
 	}
+	
 }

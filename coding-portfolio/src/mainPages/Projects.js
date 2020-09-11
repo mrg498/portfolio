@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Jumbotron from "../components/Jumbotron";
+import Footer from '../components/Footer';
 import "./Projects.css";
 
 export default class Projects extends Component {
@@ -8,7 +9,8 @@ export default class Projects extends Component {
             <div className='Projects'>
                 <div className="container">
                     <Jumbotron pageName="Projects" />
-                </div>   
+                </div>
+                <Footer/>   
             </div>
         )
     }

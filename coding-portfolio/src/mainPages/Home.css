@@ -1,5 +1,5 @@
 .Home {
-    height: 100vh;
+	height: 100vh;
 }
 
 .Home .gradient {
@@ -24,8 +24,11 @@
 	}
 }
 
-.Home .container{
-	padding-top: 20%;
+.Home .container {
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 .Home .Jumbotron {
@@ -34,19 +37,39 @@
 }
 
 .Home .Navigation li > a {
-    color: rgba(255, 255, 255, 0.75);
-    letter-spacing: var(--letter-spacing-small);
+	color: rgba(255, 255, 255, 0.75);
+	letter-spacing: var(--letter-spacing-small);
 }
 
 .Home .Jumbotron .display-1 {
-    letter-spacing: var(--letter-spacing-big);
+	letter-spacing: var(--letter-spacing-big);
 	margin-bottom: 7rem;
 	color: white;
 	text-shadow: black 3px 5px 2px;
 	border-bottom: none;
+	font-weight: 700;
 }
 
 .Home .Jumbotron .display-1 span {
-    padding: 0.5rem;
-    border-bottom: 3px solid rgba(255, 255, 255, 0.392);
+	padding: 0.5rem;
+	border-bottom: 3px solid rgba(255, 255, 255, 0.392);
+}
+
+/* // Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+}
+
+/* // Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+}
+
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+	.Home .Jumbotron .display-1 {
+		margin-bottom: 2rem;
+		text-shadow: black 1px 3px 1px;
+	}
+	.Home .nav-links {
+		flex-direction: column;
+	}
 }

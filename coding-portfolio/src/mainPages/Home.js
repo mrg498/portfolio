@@ -10,7 +10,6 @@ export default class Home extends Component {
                     <div className="container">
                         <Jumbotron pageName="Miles Portfolio"/>
                     </div>
-                    
                 </div>
 			</div>
 		);

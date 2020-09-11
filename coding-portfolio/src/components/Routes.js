@@ -10,10 +10,10 @@ export default class Routes extends Component {
 		return (
 			<Switch>
 				{/* main routes */}
-				<Route exact path="/" render={() => <Home />} />
-				<Route exact path="/about" render={() => <About />} />
-				<Route exact path="/resume" render={() => <Resume />} />
-				<Route exact path="/projects" render={() => <Projects />} />
+				<Route exact path="/" render={(routeProps) => <Home routeProps={routeProps}/>} />
+				<Route exact path="/about" render={(routeProps) => <About routeProps={routeProps}/>} />
+				<Route exact path="/resume" render={(routeProps) => <Resume routeProps={routeProps}/>} />
+				<Route exact path="/projects" render={(routeProps) => <Projects routeProps={routeProps}/>} />
 				<Redirect to="/" />
 			</Switch>
 		);

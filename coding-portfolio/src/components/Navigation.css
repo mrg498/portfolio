@@ -1,43 +1,66 @@
-.nav-links{
-    list-style-type: none;
-    display: flex;
-    justify-content: space-between;
-    padding: 0;
-    margin: 0;
+.nav-links {
+	list-style-type: none;
+	display: flex;
+	justify-content: space-between;
+	padding: 0;
+	margin: 0;
 }
 
-.nav-link{
-    padding: 0;
-    padding-bottom: 0.5rem;
+.nav-link {
+	padding: 0;
+	padding-bottom: 0.5rem;
 }
 
-.nav-link a{
-    color: white;
-    text-decoration: none;
-    font-size: 2rem;
+.nav-link a {
+	color: white;
+	text-decoration: none;
+	font-size: 2rem;
 }
 
 .active-link {
-    color: var(--color-accent) !important;
+	color: var(--color-accent) !important;
 }
 
 li {
-  display: inline-block;
-  position: relative;
-  padding-bottom: 2px;
-  padding-top: 2px;
+	display: inline-block;
+	position: relative;
+	padding-bottom: 2px;
+	padding-top: 2px;
 }
 
-li:after, li:before {
-  content: '';
-  display: block;
-  margin: auto;
-  height: 2px;
-  width: 0px;
-  background: transparent;
-  transition: width .6s ease, background-color .6s ease;
+li:after,
+li:before {
+	content: '';
+	display: block;
+	margin: auto;
+	height: 2px;
+	width: 0px;
+	background: transparent;
+	transition: width .6s ease, background-color .6s ease;
 }
-li:hover:after,  li:hover:before{
-  width: 100%;
-  background: rgb(255, 255, 255);
+li:hover:after,
+li:hover:before {
+	width: 100%;
+	background: rgb(255, 255, 255);
+}
+
+/* // Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+	.nav-link a {
+		font-size: 1.5rem;
+	}
+}
+
+/* // Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+  .nav-link a {
+		font-size: 1.5rem;
+	}
+}
+
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .nav-link a {
+		font-size: 1rem;
+	}
 }

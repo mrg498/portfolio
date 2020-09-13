@@ -13,20 +13,32 @@
 	background-color: black;
 }
 
-.About main {
+.Page main {
 	background-color: white;
 }
 
-.About main .container {
+.Page main .container {
 	padding: 2rem 0;
 }
 
-.About .About__text {
-    font-size: 2rem;
-    padding: 0 1rem;
+.Page .page-info__text {
+	font-size: 2rem;
+	padding: 0 1rem;
 }
-.About .About__text::first-letter {
-	font-size: 200%;
+.About .page-info__text::first-letter {
+	color: black;
+	background-color: var(--color-accent);
+	border-radius: 50%;
+	box-shadow: 3px 3px 0 black;
+	font-size: 250%;
+	padding: 6px 3px;
+	margin-right: 6px;
+	float: left;
+}
+
+.About .row{
+	width: 50%;
+	margin: 0 auto;
 }
 
 /* // Medium devices (tablets, less than 992px) */
@@ -35,17 +47,17 @@
 
 /* // Small devices (landscape phones, less than 768px) */
 @media (max-width: 767.98px) {
-	.About .About__text {
+	.Page .page-info__text {
 		font-size: 1.5rem;
 	}
 }
 
 /* // Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
-	.About .container {
+	.Page .container {
 		padding-top: 4rem;
-    }
-    .About .About__text {
+	}
+	.Page .page-info__text {
 		font-size: 1rem;
 	}
 }

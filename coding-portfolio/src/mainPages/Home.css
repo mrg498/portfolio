@@ -64,6 +64,9 @@
 	.Home .nav-links {
 		flex-direction: column;
 	}
+	.Home .nav-link{
+		padding: 1rem 0;
+	}
 	.Home .Jumbotron .display-1 {
 		margin-bottom: 2rem;
 		text-shadow: black 1px 3px 1px;

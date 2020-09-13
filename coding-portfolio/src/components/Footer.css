@@ -1,5 +1,5 @@
 .Footer {
-	border-top: 5px solid var(--color-accent);
+	border-top: 8px solid var(--color-accent);
 	margin-top: auto;
 	display: flex;
 	justify-content: space-evenly;

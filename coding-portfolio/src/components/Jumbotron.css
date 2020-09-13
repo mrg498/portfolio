@@ -1,33 +1,33 @@
-.Jumbotron .display-1{
-    margin-bottom: 4rem;
-    color: white;
-    font-weight: 700;
+.Jumbotron .display-1 {
+	margin-bottom: 4rem;
+	color: white;
+	font-weight: 700;
 }
 
-.Jumbotron .display-1{
-    border-bottom: 3px solid var(--color-accent);
+.Jumbotron .display-1 {
+	border-bottom: 3px solid var(--color-accent);
 }
 
 /* // Medium devices (tablets, less than 992px) */
 @media (max-width: 991.98px) {
-    .display-1{
-        font-size: 3.5rem;
-    }
+	.display-1 {
+		font-size: 3.5rem;
+	}
 }
 
 /* // Small devices (landscape phones, less than 768px) */
 @media (max-width: 767.98px) {
-    .display-1{
-        font-size: 2.5rem;
-    }
+	.display-1 {
+		font-size: 2.5rem;
+	}
+	.Jumbotron .display-1 {
+		margin-bottom: 2rem;
+	}
 }
 
 /* // Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
-    .display-1{
-        font-size: 1.5rem;
-    }
+	.display-1 {
+		font-size: 1.5rem;
+	}
 }
-
-
-

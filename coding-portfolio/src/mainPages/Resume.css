@@ -35,7 +35,7 @@
 
 .Resume ul{
 	list-style-type: square;
-	list-style-position: inside;
+	/* list-style-position: inside; */
 }
 
 .Resume li{

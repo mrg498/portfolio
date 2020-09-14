@@ -1,4 +1,18 @@
+*{
+	box-sizing: border-box;
+}
+
 .container-fluid{
 	padding: 0;
 }
 
+.btn-primary{
+	background-color: var(--color-accent_2);
+	border: none;
+}
+
+.btn-primary:hover, .btn-primary:focus{
+	background-color: grey;
+	border: none;
+	box-shadow: none;
+}

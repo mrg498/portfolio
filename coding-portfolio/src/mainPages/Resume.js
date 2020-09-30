@@ -35,7 +35,8 @@ export default class Resume extends Component {
 						<h5 className="section-header__subheader">Work Experience</h5>
 						<p className="cv-text">
 							<ul>
-								<li>Handoff</li>
+								<li>Handoff (<a href="https://www.handofftech.com/">website</a>)</li>
+								<li>Analog Collective (<a href="https://www.analogcollective.com/">website</a>)</li>
 								<li>Massive Music</li>
 								<li>NYU Clive Davis</li>
 							</ul>

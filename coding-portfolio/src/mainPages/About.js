@@ -17,7 +17,7 @@ export default class About extends Component {
 							Welcome to my portfolio! I am a sotware engineer and web developer and a recent graduate of
 							NYU with majors in Computer Science and Audio Technology. I've worked extensively in
 							Javascript and Java, but I've also completed projects in C++, Python, and Swift. As a full
-							stack developer, I am very confortable with the standard frontend tech stack of HTML, CSS,
+							stack developer, I am very comfortable with the standard frontend tech stack of HTML, CSS,
 							Javascript, and other related technolgies, and I also have experience building projects
 							using React. My backend experience includes working professionally in the Spring MVC Java
 							framework, and building projects in Node.js. Aside from web applications, I've built a

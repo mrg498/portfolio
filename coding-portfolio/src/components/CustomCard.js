@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './CustomCard.css';
+import {Link} from 'react-router-dom';
 
 export default class CustomCard extends Component {
 	render() {
@@ -10,9 +11,7 @@ export default class CustomCard extends Component {
 					<div class="card-body">
 						<h5 class="card-title">{this.props.title}</h5>
 						<p class="card-text">{this.props.description}</p>
-						<a href={this.props.link} class="btn btn-primary">
-							{this.props.button_text}
-						</a>
+						<Link to={this.props.link} class="btn btn-primary">{this.props.button_text}</Link>
 					</div>
 				</div>
 			</div>

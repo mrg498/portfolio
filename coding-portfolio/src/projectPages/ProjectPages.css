@@ -7,5 +7,5 @@
 }
 
 .ProjectPage main {
-    background-color: var(--color-accent_3);
+    background: linear-gradient(-45deg, rgb(57, 57, 57), var(--color-accent_2), var(--color-accent_3), var(--color-accent));
 }

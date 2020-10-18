@@ -24,7 +24,7 @@ export default class Projects extends Component {
                                         image_src={Image_all_projects}
 										image_alt="all projects"
 										title="All Projects"
-										description="catalog of general programming projects"
+										description="Catalog of general programming projects"
                                         link="/projects/all"
                                         button_text="View Projects"
 									/>

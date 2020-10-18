@@ -3,7 +3,7 @@
 :root{
   --color-accent: rgb(170, 244, 252);
   --color-accent_2: rgb(157, 157, 157);
-  --color-accent_3: rgb(176, 199, 225);
+  --color-accent_3: rgb(199, 225, 255);
   --letter-spacing-big: 0.6rem;
   --letter-spacing-small: 0.25rem;
 }

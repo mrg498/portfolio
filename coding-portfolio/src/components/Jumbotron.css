@@ -20,7 +20,7 @@
 }
 
 .Jumbotron .home-icon__wrapper:hover{
-	background-color: var(--color-accent);
+	background-color: var(--color-accent_3);
 }
 
 .Jumbotron .home-icon__wrapper img {

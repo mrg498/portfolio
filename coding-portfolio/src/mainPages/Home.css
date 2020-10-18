@@ -3,7 +3,7 @@
 }
 
 .Home .gradient {
-	background: linear-gradient(-45deg, rgb(57, 57, 57), var(--color-accent_2), var(--color-accent_3), rgb(154, 219, 227));
+	background: linear-gradient(-45deg, rgb(57, 57, 57), var(--color-accent_2), var(--color-accent_3), rgb(122, 178, 186));
 	background-size: 400% 400%;
 	animation: gradient 10s ease infinite;
 	/* By:

@@ -30,7 +30,7 @@ export default class AllProjects extends Component {
 										image_alt="analog collective"
 										title="Analog Collective"
 										description="frontend for flask app"
-                                        link="/projects"
+                                        link="/projects/AnalogCollective"
                                         button_text="Explore Project"
 									/>
 								}
@@ -42,7 +42,7 @@ export default class AllProjects extends Component {
 										image_alt="chloe ting workout builder"
 										title="Chloe Ting Workout Builder"
 										description="interactions with youtube api"
-                                        link="/projects"
+                                        link="/projects/ChloeTingWorkoutBuilder"
                                         button_text="Explore Project"
 									/>
 								}
@@ -56,7 +56,7 @@ export default class AllProjects extends Component {
 										image_alt="handoff"
 										title="Handoff"
 										description="Spring Web MVC framework"
-                                        link="/projects"
+                                        link="/projects/ComingSoon"
                                         button_text="Explore Project"
 									/>
 								}
@@ -68,7 +68,7 @@ export default class AllProjects extends Component {
 										image_alt="portfolio"
 										title="Personal Portfolio"
 										description="React App"
-                                        link="/projects"
+                                        link="/projects/ComingSoon"
                                         button_text="Explore Project"
 									/>
 								}
@@ -82,7 +82,7 @@ export default class AllProjects extends Component {
 										image_alt="splash kid"
 										title="Splash Kid"
 										description="Sprite Kit iOS Game in Swift"
-                                        link="/projects"
+                                        link="/projects/ComingSoon"
                                         button_text="Explore Project"
 									/>
 								}
@@ -94,7 +94,7 @@ export default class AllProjects extends Component {
 										image_alt="haven"
 										title="Haven"
 										description="backend for users and profiles"
-                                        link="/projects"
+                                        link="/projects/ComingSoon"
                                         button_text="Explore Project"
 									/>
 								}
@@ -108,7 +108,7 @@ export default class AllProjects extends Component {
 										image_alt="west side tech"
 										title="West Side Tech"
 										description="Deployed static site with cool animations"
-                                        link="/projects"
+                                        link="/projects/ComingSoon"
                                         button_text="Explore Project"
 									/>
 								}
@@ -120,7 +120,7 @@ export default class AllProjects extends Component {
 										image_alt="delay plugin"
 										title="Audio Delay Plugin"
 										description="real time audio processing"
-                                        link="/projects"
+                                        link="/projects/ComingSoon"
                                         button_text="Explore Project"
 									/>
 								}

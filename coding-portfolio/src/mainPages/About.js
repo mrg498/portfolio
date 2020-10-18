@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Jumbotron from '../components/Jumbotron';
 import Footer from '../components/Footer';
-import Headshot from '../images/headshot.jpeg';
+// import Headshot from '../images/headshot.jpeg';
 import './About.css';
 
 export default class About extends Component {
@@ -26,10 +26,10 @@ export default class About extends Component {
 							I can do!
 						</p>
                         <div className="row justify-content-center">
-                            <div className="col-12 col-md-6 image-col">
+                            {/* <div className="col-12 col-md-6 image-col">
 								<div style={{backgroundImage: `url(${Headshot})`, backgroundSize:'contain', backgroundRepeat:'no-repeat', height: '20vh', padding:'0px'}}>
 								</div>
-                            </div>
+                            </div> */}
                         </div>
 					</section>
 				</main>

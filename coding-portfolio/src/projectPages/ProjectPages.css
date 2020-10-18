@@ -1,3 +1,11 @@
 .ProjectPage{
-    background-color: red;
+    background-color: black;
+}
+
+.ProjectPage .container {
+	padding-top: 7rem;
+}
+
+.ProjectPage main {
+    background-color: var(--color-accent_3);
 }

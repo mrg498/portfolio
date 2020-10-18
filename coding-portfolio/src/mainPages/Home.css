@@ -12,6 +12,10 @@
 	height: 100vh;
 }
 
+.Home .Jumbotron .home-icon__wrapper{
+	display: none;
+}
+
 @keyframes gradient {
 	0% {
 		background-position: 0% 50%;

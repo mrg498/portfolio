@@ -14,7 +14,7 @@
 }
 
 .Page main {
-	background-color: white;
+	background-color: var(--color-accent_3);
 }
 
 .Projects main .container {

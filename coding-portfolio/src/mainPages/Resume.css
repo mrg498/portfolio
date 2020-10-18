@@ -21,6 +21,10 @@
 	text-decoration: underline;
 }
 
+.Page main {
+	background-color: var(--color-accent_3);
+}
+
 .Resume .pdf__iframe {
 	display: inline;
 }

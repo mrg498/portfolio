@@ -6,12 +6,12 @@ export default class CustomCard extends Component {
 	render() {
 		return (
 			<div className="CustomCard">
-				<div class="card">
+				<div className="card">
 					<img src={this.props.image_src} class="card-img-top" alt={this.props.image_alt} />
-					<div class="card-body">
-						<h5 class="card-title">{this.props.title}</h5>
-						<p class="card-text">{this.props.description}</p>
-						<Link to={this.props.link} class="btn btn-primary">{this.props.button_text}</Link>
+					<div className="card-body">
+						<h5 className="card-title">{this.props.title}</h5>
+						<p className="card-text">{this.props.description}</p>
+						<Link to={this.props.link} className="btn btn-primary">{this.props.button_text}</Link>
 					</div>
 				</div>
 			</div>

@@ -8,10 +8,33 @@
 	border-bottom: 3px solid var(--color-accent);
 }
 
+.Jumbotron .home-icon__wrapper {
+	height: 64px;
+	width: 64px;
+	border-radius: 8px;
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	background-color: white;
+	transition: all 0.7s;
+}
+
+.Jumbotron .home-icon__wrapper:hover{
+	background-color: var(--color-accent);
+}
+
+.Jumbotron .home-icon__wrapper img {
+	height: 100%;
+}
+
 /* // Medium devices (tablets, less than 992px) */
 @media (max-width: 991.98px) {
 	.display-1 {
 		font-size: 3.5rem;
+	}
+	.Jumbotron .home-icon__wrapper {
+		height: 48px;
+		width: 48px;
 	}
 }
 
@@ -23,6 +46,11 @@
 	.Jumbotron .display-1 {
 		margin-bottom: 2rem;
 	}
+	.Jumbotron .home-icon__wrapper {
+		height: 32px;
+		width: 32px;
+	}
+	
 }
 
 /* // Extra small devices (portrait phones, less than 576px) */
@@ -30,4 +58,5 @@
 	.display-1 {
 		font-size: 1.5rem;
 	}
+	
 }

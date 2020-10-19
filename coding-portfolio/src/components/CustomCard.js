@@ -11,7 +11,7 @@ export default class CustomCard extends Component {
 					<div className="card-body">
 						<h5 className="card-title">{this.props.title}</h5>
 						<p className="card-text">{this.props.description}</p>
-						<Link to={this.props.link} className="btn btn-primary">{this.props.button_text}</Link>
+						<Link to={process.env.PUBLIC_URL + this.props.link} className="btn btn-primary">{this.props.button_text}</Link>
 					</div>
 				</div>
 			</div>

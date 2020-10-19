@@ -17,21 +17,66 @@ export default class Routes extends Component {
 		return (
 			<Switch>
 				{/* main routes */}
-				<Route exact path="/" render={(routeProps) => <Home routeProps={routeProps}/>} />
-				<Route exact path="/about" render={(routeProps) => <About routeProps={routeProps}/>} />
-				<Route exact path="/resume" render={(routeProps) => <Resume routeProps={routeProps}/>} />
-				<Route exact path="/projects" render={(routeProps) => <Projects routeProps={routeProps}/>} />
+				<Route
+					exact
+					path={process.env.PUBLIC_URL + '/'}
+					render={(routeProps) => <Home routeProps={routeProps} />}
+				/>
+				<Route
+					exact
+					path={process.env.PUBLIC_URL + '/about'}
+					render={(routeProps) => <About routeProps={routeProps} />}
+				/>
+				<Route
+					exact
+					path={process.env.PUBLIC_URL + '/resume'}
+					render={(routeProps) => <Resume routeProps={routeProps} />}
+				/>
+				<Route
+					exact
+					path={process.env.PUBLIC_URL + '/projects'}
+					render={(routeProps) => <Projects routeProps={routeProps} />}
+				/>
 				{/* Project Filter routes */}
-				<Route exact path="/projects/all" render={(routeProps) => <AllProjects routeProps={routeProps}/>} />
-				<Route exact path="/projects/frontend" render={(routeProps) => <FrontEndProjects routeProps={routeProps}/>} />
-				<Route exact path="/projects/backend" render={(routeProps) => <BackEndProjects routeProps={routeProps}/>} />
-				<Route exact path="/projects/nonweb" render={(routeProps) => <NonWebProjects routeProps={routeProps}/>} />
+				<Route
+					exact
+					path={process.env.PUBLIC_URL + '/projects/all'}
+					render={(routeProps) => <AllProjects routeProps={routeProps} />}
+				/>
+				<Route
+					exact
+					path={process.env.PUBLIC_URL + '/projects/frontend'}
+					render={(routeProps) => <FrontEndProjects routeProps={routeProps} />}
+				/>
+				<Route
+					exact
+					path={process.env.PUBLIC_URL + '/projects/backend'}
+					render={(routeProps) => <BackEndProjects routeProps={routeProps} />}
+				/>
+				<Route
+					exact
+					path={process.env.PUBLIC_URL + '/projects/nonweb'}
+					render={(routeProps) => <NonWebProjects routeProps={routeProps} />}
+				/>
 				{/* Project routes */}
-				<Route exact path="/projects/AnalogCollective" render={(routeProps) => <AnalogCollective routeProps={routeProps}/>} />
-				<Route exact path="/projects/ChloeTingWorkoutBuilder" render={(routeProps) => <ChloeTingWorkoutBuilder routeProps={routeProps}/>} />
+				<Route
+					exact
+					path={process.env.PUBLIC_URL + '/projects/AnalogCollective'}
+					render={(routeProps) => <AnalogCollective routeProps={routeProps} />}
+				/>
+				<Route
+					exact
+					path={process.env.PUBLIC_URL + '/projects/ChloeTingWorkoutBuilder'}
+					render={(routeProps) => <ChloeTingWorkoutBuilder routeProps={routeProps} />}
+				/>
 				{/* No Description Route */}
-				<Route exact path="/projects/ComingSoon" render={(routeProps) => <ComingSoon routeProps={routeProps}/>} />
-				<Redirect to="/" />
+				<Route
+					exact
+					path={process.env.PUBLIC_URL + '/projects/ComingSoon'}
+					render={(routeProps) => <ComingSoon routeProps={routeProps} />}
+				/>
+				{/* redirect */}
+				<Redirect to={process.env.PUBLIC_URL + '/'} />
 			</Switch>
 		);
 	}

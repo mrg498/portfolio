@@ -20,7 +20,7 @@ export default class About extends Component {
 							stack developer, I am very comfortable with the standard frontend tech stack of HTML, CSS,
 							Javascript, and other related technolgies, and I also have experience building projects
 							using React. My backend experience includes working professionally in the Spring MVC Java
-							framework, and building projects in Node.js. Aside from web applications, I've built a
+							framework and building projects in Node.js. Aside from web applications, I've built a
 							multitude of other projects in a variety of different langauges from Audio Plugins in C++ to
 							iPhone games in Swift. But don't just take my word for it. Check out my projects to see what
 							I can do!

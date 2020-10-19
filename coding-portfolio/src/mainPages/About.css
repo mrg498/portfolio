@@ -28,9 +28,10 @@
 
 .About .page-info__text::first-letter {
 	color: black;
-	background-color: var(--color-accent);
-	border-radius: 50%;
-	box-shadow: 3px 3px 0 black;
+	background-color: var(--color-accent_3);
+	border-radius: 5px;
+	/* box-shadow: 3px 3px 0 black; */
+	border: 3px solid black;
 	font-size: 250%;
 	padding: 6px 3px;
 	margin-right: 6px;

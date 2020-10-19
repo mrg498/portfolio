@@ -9,3 +9,18 @@
 .ProjectPage main {
     background: linear-gradient(-45deg, rgb(57, 57, 57), var(--color-accent_2), var(--color-accent_3), var(--color-accent));
 }
+
+/* // Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+	
+}
+
+/* // Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+	
+}
+
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+	
+}

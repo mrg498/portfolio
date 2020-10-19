@@ -25,6 +25,10 @@
 	background-color: var(--color-accent_3);
 }
 
+.Resume main .container {
+	padding-top: 2rem;
+}
+
 .Resume .pdf__iframe {
 	display: inline;
 }

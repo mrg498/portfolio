@@ -22,8 +22,8 @@ export default class Resume extends Component {
 					<section className="container">
 						<h3 className="section-header">My CV:</h3>
 						<h5 className="section-header__subheader">Education</h5>
-						<p className="cv-text">
-							<ul>
+						
+							<ul className="cv-text">
 								<li>NYU Computer Science</li>
 								<li>NYU Music Technology</li>
 								<li>
@@ -31,16 +31,16 @@ export default class Resume extends Component {
 									2016 Studies in Digital Signal Processing and Sound Spatialization with MAX/MSP
 								</li>
 							</ul>
-						</p>
+						
 						<h5 className="section-header__subheader">Work Experience</h5>
-						<p className="cv-text">
-							<ul>
+						
+							<ul className="cv-text">
 								<li>Handoff (<a href="https://www.handofftech.com/">website</a>)</li>
 								<li>Analog Collective (<a href="https://www.analogcollective.com/">website</a>)</li>
 								<li>Massive Music</li>
 								<li>NYU Clive Davis</li>
 							</ul>
-						</p>
+						
 					</section>
 				</main>
 				<Footer />

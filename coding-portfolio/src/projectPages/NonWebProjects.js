@@ -11,7 +11,7 @@ export default class NonWebProjects extends Component {
         return (
             <div className="NonWebProjects ProjectPage Projects">
                 <div className="container">
-                    <Jumbotron pageName="All Projects" />
+                    <Jumbotron pageName="Non Web" />
                 </div>
                 <main>
 					<section className="container">

@@ -13,7 +13,7 @@ export default class FrontEndProjects extends Component {
         return (
             <div className="FrontEndProjects ProjectPage Projects">
                 <div className="container">
-                    <Jumbotron pageName="Front End Projects" />
+                    <Jumbotron pageName="Front End" />
                 </div>
                 <main>
 					<section className="container">

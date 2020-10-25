@@ -87,10 +87,17 @@
 /* // Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
 	.Home .Jumbotron{
-		margin-top: -50%;
+		margin-top: -20%;
 	}
 	.Home .quote{
 		font-size: 0.8rem;
 	}
 	
+}
+
+@media (max-width: 374.98px){
+	.Home .Jumbotron .display-1 {
+		font-size: 1.5rem;
+		letter-spacing: var(--letter-spacing-small);
+	}
 }

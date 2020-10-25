@@ -22,6 +22,10 @@
     text-align: left;
 } 
 
+.Project ul li{
+    margin-left: 1rem;
+}
+
 .project-info__header{
     display: inline-block;
     /* margin-left: 1rem; */

@@ -56,7 +56,7 @@ export default class AllProjects extends Component {
 										image_alt="handoff"
 										title="Handoff"
 										description="Spring Web MVC framework"
-                                        link="/projects/ComingSoon"
+                                        link="/projects/Handoff"
                                         button_text="Explore Project"
 									/>
 								}

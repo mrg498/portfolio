@@ -11,6 +11,7 @@ import NonWebProjects from '../projectPages/NonWebProjects';
 import ComingSoon from '../projects/ComingSoon';
 import AnalogCollective from '../projects/AnalogCollective';
 import ChloeTingWorkoutBuilder from '../projects/ChloeTingWorkoutBuilder';
+import Handoff from '../projects/Handoff';
 
 export default class Routes extends Component {
 	render() {
@@ -29,6 +30,7 @@ export default class Routes extends Component {
 				{/* Project routes */}
 				<Route exact path="/projects/AnalogCollective" render={(routeProps) => <AnalogCollective routeProps={routeProps}/>} />
 				<Route exact path="/projects/ChloeTingWorkoutBuilder" render={(routeProps) => <ChloeTingWorkoutBuilder routeProps={routeProps}/>} />
+				<Route exact path="/projects/Handoff" render={(routeProps) => <Handoff routeProps={routeProps}/>} />
 				{/* No Description Route */}
 				<Route exact path="/projects/ComingSoon" render={(routeProps) => <ComingSoon routeProps={routeProps}/>} />
 				<Redirect to="/" />

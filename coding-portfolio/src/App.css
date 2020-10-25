@@ -18,6 +18,7 @@ main .container {
 	background-color: whitesmoke;
 	border: 5px solid black;
 	border-radius: 20px;
+	margin-bottom: 2.5rem;
 }
 
 .btn-primary{

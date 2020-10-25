@@ -65,6 +65,7 @@ export default class ChloeTingWorkoutBuilder extends Component {
 							<li>
 								<em>New Tech:</em> Youtube API, API calls in React components, process.env with React, embedding youtube videos with iframe 
 							</li>
+							<li>Setting react states</li>
 							<li>Creating helper functions helps with readability and writing clean code</li>
 							<li>Deploying a simple React app to github pages</li>
 							<li>Simplicity lends itself to useability</li>

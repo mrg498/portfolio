@@ -68,7 +68,7 @@ export default class AllProjects extends Component {
 										image_alt="portfolio"
 										title="Personal Portfolio"
 										description="React App"
-                                        link="/projects/ComingSoon"
+                                        link="/projects/Portfolio"
                                         button_text="Explore Project"
 									/>
 								}

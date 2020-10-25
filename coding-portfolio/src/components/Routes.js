@@ -12,6 +12,7 @@ import ComingSoon from '../projects/ComingSoon';
 import AnalogCollective from '../projects/AnalogCollective';
 import ChloeTingWorkoutBuilder from '../projects/ChloeTingWorkoutBuilder';
 import Handoff from '../projects/Handoff';
+import Portfolio from '../projects/Portfolio';
 
 export default class Routes extends Component {
 	render() {
@@ -31,6 +32,7 @@ export default class Routes extends Component {
 				<Route exact path="/projects/AnalogCollective" render={(routeProps) => <AnalogCollective routeProps={routeProps}/>} />
 				<Route exact path="/projects/ChloeTingWorkoutBuilder" render={(routeProps) => <ChloeTingWorkoutBuilder routeProps={routeProps}/>} />
 				<Route exact path="/projects/Handoff" render={(routeProps) => <Handoff routeProps={routeProps}/>} />
+				<Route exact path="/projects/Portfolio" render={(routeProps) => <Portfolio routeProps={routeProps}/>} />
 				{/* No Description Route */}
 				<Route exact path="/projects/ComingSoon" render={(routeProps) => <ComingSoon routeProps={routeProps}/>} />
 				<Redirect to="/" />

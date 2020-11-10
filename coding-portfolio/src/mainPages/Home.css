@@ -92,6 +92,9 @@
 	.Home .quote{
 		font-size: 0.8rem;
 	}
+	.Home .Jumbotron .display-1 {
+		letter-spacing: var(--letter-spacing-small);
+	}
 	
 }
 
@@ -99,5 +102,16 @@
 	.Home .Jumbotron .display-1 {
 		font-size: 1.5rem;
 		letter-spacing: var(--letter-spacing-small);
+		text-shadow: black 1px 1px 1px;
+	}
+
+	
+
+}
+
+@media (max-width: 319.98px){
+	.Home .Jumbotron .display-1{
+		font-size: 1.3rem;
+		letter-spacing: normal;
 	}
 }

@@ -82,7 +82,7 @@ export default class AllProjects extends Component {
 										image_alt="splash kid"
 										title="Splash Kid"
 										description="Sprite Kit iOS Game in Swift"
-                                        link="/projects/ComingSoon"
+                                        link="/projects/SplashKid"
                                         button_text="Explore Project"
 									/>
 								}
@@ -94,7 +94,7 @@ export default class AllProjects extends Component {
 										image_alt="haven"
 										title="Haven"
 										description="backend for users and profiles"
-                                        link="/projects/ComingSoon"
+                                        link="/projects/Haven"
                                         button_text="Explore Project"
 									/>
 								}

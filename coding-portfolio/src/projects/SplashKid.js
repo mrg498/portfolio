@@ -8,7 +8,7 @@ export default class SplashKid extends Component {
 		return (
 			<div className="Project SplashKid">
 				<div className="container jumbo-container">
-					<Jumbotron pageName="Analog Collective" />
+					<Jumbotron pageName="Splash Kid" />
 				</div>
 				<main>
 					<section className="container">

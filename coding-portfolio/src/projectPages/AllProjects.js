@@ -108,7 +108,7 @@ export default class AllProjects extends Component {
 										image_alt="west side tech"
 										title="West Side Tech"
 										description="Deployed static site with cool animations"
-                                        link="/projects/ComingSoon"
+                                        link="/projects/WestSideTech"
                                         button_text="Explore Project"
 									/>
 								}

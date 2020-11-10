@@ -8,7 +8,7 @@ export default class Home extends Component {
 			<div className="Home">
 				<div className="gradient">
 					<div className="container">
-						<Jumbotron pageName="Miles Portfolio" />
+						<Jumbotron pageName="Coding Portfolio" />
 						<h6 className="quote mt-5 text-center">&mdash;There are only two hard problems in Computer Science: maintaining a portfolio and naming things</h6>
 					</div>
 				</div>

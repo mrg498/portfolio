@@ -8,7 +8,7 @@ export default class Haven extends Component {
 		return (
 			<div className="Project Haven">
 				<div className="container jumbo-container">
-					<Jumbotron pageName="Analog Collective" />
+					<Jumbotron pageName="Haven" />
 				</div>
 				<main>
 					<section className="container">
@@ -17,17 +17,17 @@ export default class Haven extends Component {
 						</h3>
 						<div className="row">
 							<iframe
-								title="splash kid demo"
+								title="Haven app demo"
 								width="560"
 								height="315"
-								src="https://www.youtube.com/embed/9wwwd5udPZE"
+								src="https://www.youtube.com/embed/hOTSSpjybb4"
 								frameBorder="0"
 								allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
 								allowFullScreen
 							/>
 						</div>
-                        <h3 className="text-center mb-5">
-							<a href="https://github.com/Splash-Kid-iOS/splash-kid">
+						<h3 className="text-center mb-5">
+							<a href="https://github.com/mrg498/fall-2019-music-suggestions/tree/master/Haven/haven-app/backend">
 								<span className="">Code Link</span>
 							</a>
 						</h3>
@@ -35,35 +35,31 @@ export default class Haven extends Component {
 							<span className="project-info__header">Description</span>
 						</h3>
 						<p className="page-info__text project_text">
-							Splash Kid is an iPhone game designed to be played in landscape view where the user must
-							avoid obstacles and hit targets to achieve a high score! 
+							An application for users to display artistic profiles and view other user's profiles. Built
+							for the academic purpose of learning the Agile Methodology with a group of developers.
 						</p>
 						<h3 className="text-center text-md-left">
 							<span className="project-info__header">Cool Feature</span>
 						</h3>
 						<p className="page-info__text project_text">
-							The most interesting element that I was in charge of was implementing the randomly generated
-							world. From a tutorial by Justin Dike of cartoonsmart.com I learned about
-							randomly-generated, endless world games. Specifically, I used the idea of a WorldNode nested
-							inside of the SKScene that endlessly moves across the screen in increments of the screen’s
-							width. Using a counter to keep track of how many times the world node had moved the width of
-							the screen (‘worldMovedIncrement’), I was able to randomly generate obstacles and position
-							them at x-values that were one screen width to the right of screen. The new obstacles are
-							positioned relative to a multiplier of how many times the screen has moved. Using the same
-							concept of moving a node across the screen, I was also able to loop the background and
-							foreground sprites at different speeds to create a parallax effect. The sky, houses, and
-							road are all divided into their own node and move across the screen at different speeds.
+							The core feature of the application was to allow users to upload media to the site. So, I
+							made use of the multer middleware library to help me handle file uploads by putting
+							constraints and filters on the types of files that could be uploaded to the site. For this
+							small project, we settled on only allowing certain image mime types and only allowing file
+							sizes smaller than 5 megabytes.
 						</p>
 						<h3 className="text-center text-md-left">
 							<span className="project-info__header">What I Learned</span>
 						</h3>
 						<ul className="page-info__text project_text">
 							<li>
-								<em>New Tech:</em> Swift, Xcode, iOS development, SpriteKit
+								<em>New Tech:</em> Agile Workflow, Node, MongoDB, Express.js ,(Encryption) Bcrypt,
+								Multer, Insomnia
 							</li>
-							<li>Collision detection</li>
-							<li>Sprite Graphics/Animation</li>
-							<li>Endless world generation</li>
+							<li>Basic Backend Design</li>
+							<li>User Authentication/Authorization</li>
+							<li>Upload Multimedia (images)</li>
+							<li>Scrum Framework</li>
 						</ul>
 					</section>
 				</main>

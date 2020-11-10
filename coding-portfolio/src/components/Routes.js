@@ -15,6 +15,7 @@ import Handoff from '../projects/Handoff';
 import Portfolio from '../projects/Portfolio';
 import SplashKid from '../projects/SplashKid';
 import Haven from '../projects/Haven';
+import WestSideTech from '../projects/WestSideTech';
 
 export default class Routes extends Component {
 	render() {
@@ -37,6 +38,7 @@ export default class Routes extends Component {
 				<Route exact path="/projects/Portfolio" render={(routeProps) => <Portfolio routeProps={routeProps}/>} />
 				<Route exact path="/projects/SplashKid" render={(routeProps) => <SplashKid routeProps={routeProps}/>} />
 				<Route exact path="/projects/Haven" render={(routeProps) => <Haven routeProps={routeProps}/>} />
+				<Route exact path="/projects/WestSideTech" render={(routeProps) => <WestSideTech routeProps={routeProps}/>} />
 				{/* No Description Route */}
 				<Route exact path="/projects/ComingSoon" render={(routeProps) => <ComingSoon routeProps={routeProps}/>} />
 				<Redirect to="/" />

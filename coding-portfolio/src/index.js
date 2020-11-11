@@ -5,10 +5,13 @@ import 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css';
 import App from './App';
+import ScrollToTop from './components/ScrollToTop';
 
 ReactDOM.render(
 	<Router>
-		<App />
+		<ScrollToTop>
+			<App />
+		</ScrollToTop>
 	</Router>,
 	document.getElementById('root')
 );

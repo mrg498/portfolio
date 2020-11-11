@@ -23,7 +23,7 @@ export default class NonWebProjects extends Component {
 										image_alt="splash kid"
 										title="Splash Kid"
 										description="Sprite Kit iOS Game in Swift"
-                                        link="/projects/ComingSoon"
+                                        link="/projects/SplashKid"
                                         button_text="Explore Project"
 									/>
 								}
@@ -35,7 +35,7 @@ export default class NonWebProjects extends Component {
 										image_alt="delay plugin"
 										title="Audio Delay Plugin"
 										description="real time audio processing"
-                                        link="/projects/ComingSoon"
+                                        link="/projects/AudioDelay"
                                         button_text="Explore Project"
 									/>
 								}

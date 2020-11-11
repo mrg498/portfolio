@@ -24,7 +24,7 @@ export default class BackEndProjects extends Component {
 										image_alt="handoff"
 										title="Handoff"
 										description="Spring Web MVC framework"
-                                        link="/projects/ComingSoon"
+                                        link="/projects/Handoff"
                                         button_text="Explore Project"
 									/>
 								}
@@ -36,7 +36,7 @@ export default class BackEndProjects extends Component {
 										image_alt="haven"
 										title="Haven"
 										description="backend for users and profiles"
-                                        link="/projects/ComingSoon"
+                                        link="/projects/Haven"
                                         button_text="Explore Project"
 									/>
 								}

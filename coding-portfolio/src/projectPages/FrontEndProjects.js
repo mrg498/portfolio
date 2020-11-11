@@ -51,7 +51,7 @@ export default class FrontEndProjects extends Component {
 										image_alt="west side tech"
 										title="West Side Tech"
 										description="Deployed static site with cool animations"
-                                        link="/projects/ComingSoon"
+                                        link="/projects/WestSideTech"
                                         button_text="Explore Project"
 									/>
 								}
@@ -63,7 +63,7 @@ export default class FrontEndProjects extends Component {
 										image_alt="portfolio"
 										title="Personal Portfolio"
 										description="React App"
-                                        link="/projects/ComingSoon"
+                                        link="/projects/Portfolio"
                                         button_text="Explore Project"
 									/>
 								}

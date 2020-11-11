@@ -120,7 +120,7 @@ export default class AllProjects extends Component {
 										image_alt="delay plugin"
 										title="Audio Delay Plugin"
 										description="real time audio processing"
-                                        link="/projects/ComingSoon"
+                                        link="/projects/AudioDelay"
                                         button_text="Explore Project"
 									/>
 								}

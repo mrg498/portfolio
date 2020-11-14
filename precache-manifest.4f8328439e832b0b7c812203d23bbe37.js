@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "cf7a4bc1595e45a1716ffdb48566ba31",
+    "revision": "422f122e2ca33d6e2e6036fa320b58d1",
     "url": "/portfolio/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/css/2.11829350.chunk.css"
   },
   {
-    "revision": "b5513acd104eddde586f",
+    "revision": "abee9589675af9c4905b",
     "url": "/portfolio/static/css/main.58de8cbc.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/js/2.9d5371d7.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b5513acd104eddde586f",
-    "url": "/portfolio/static/js/main.4b5f726f.chunk.js"
+    "revision": "abee9589675af9c4905b",
+    "url": "/portfolio/static/js/main.08ee4e50.chunk.js"
   },
   {
     "revision": "c3df2225b68fe7c2eb10",
@@ -32,8 +32,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/LI-In-Bug.85f3c50b.png"
   },
   {
-    "revision": "ea421abcbb144448d22076b924f97d60",
-    "url": "/portfolio/static/media/Summer2020Resume.ea421abc.pdf"
+    "revision": "209f08e3324266074d9061fd504eae94",
+    "url": "/portfolio/static/media/Summer2020Resume.209f08e3.pdf"
   },
   {
     "revision": "f1df7d15bda7947b0d5bd898e4488bf3",
